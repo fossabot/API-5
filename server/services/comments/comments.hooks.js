@@ -10,6 +10,7 @@ const { isVerified } = require('feathers-authentication-management').hooks;
 const createExcerpt = require('../../hooks/create-excerpt');
 const createNotifications = require('./hooks/create-notifications');
 const createMentionNotifications = require('./hooks/create-mention-notifications');
+const search = require('feathers-mongodb-fuzzy-search');
 const _ = require('lodash');
 
 const userSchema = {
@@ -24,7 +25,12 @@ const userSchema = {
 //ToDo: Only let users create comments for contributions they are allowed to
 module.exports = {
   before: {
-    all: [],
+    all: [
+      search(),
+      search({  // regex search on given fields
+        fields: ['content']
+      })
+    ],
     find: [],
     get: [],
     create: [
@@ -74,7 +80,7 @@ module.exports = {
       populate({ schema: userSchema })
     ],
     find: [
-      discard('content', 'user.coverImg', 'badgeIds')
+      discard('user.coverImg', 'badgeIds')
     ],
     get: [],
     create: [
