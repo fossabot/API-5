@@ -6,7 +6,11 @@
 <p align="center">
   <a href="https://travis-ci.org/Human-Connection/API"><img src="https://img.shields.io/travis/Human-Connection/API/master.svg" alt="Build Status"></a>
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-green.svg" "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)" /></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FHuman-Connection%2FAPI?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FHuman-Connection%2FAPI.svg?type=shield"/></a>
 </p>
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHuman-Connection%2FAPI.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHuman-Connection%2FAPI?ref=badge_large)
 
 # Human-Connection API
 
@@ -134,4 +138,4 @@ The HC platform is documented in our [gitbook](https://www.gitbook.com/book/huma
 
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg"/></a>
 
-[Creative Commons (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/) not for commercial use. 
+[Creative Commons (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/) not for commercial use.
